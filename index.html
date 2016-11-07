@@ -32,13 +32,26 @@
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
+
+    <style>
+        .slides section img {
+            border: 0;
+            /*opacity: 0;*/
+        }
+        .slides .top img {
+            width: 100%;
+            box-shadow: none;
+        }
+    </style>
 </head>
 
 <body>
 
 <div class="reveal">
-
     <div class="slides">
+        <section class="top">
+            <img src="md/images/re_zero.png" alt="">
+        </section>
         <section data-markdown="md/slide.md"
                  data-separator="\n---\n$">
         </section>
